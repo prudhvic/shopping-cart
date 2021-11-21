@@ -90,7 +90,7 @@ img {
   padding: 10px;
 }
 .remove {
-  grid-column: 4/-1;
+  /* grid-column: 4/-1; */
 }
 .shoe .add-btn {
   background-color: white;
@@ -143,6 +143,10 @@ img {
 
   .shoe-details h2 {
     font-size: 1.1rem;
+    text-align: center;
+  }
+  .shoe-details p {
+    text-align: center;
   }
   .remove button {
     font-size: 1rem;
